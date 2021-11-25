@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 @javax.persistence.Entity
-public class Book extends Entity {
+public class Book {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;

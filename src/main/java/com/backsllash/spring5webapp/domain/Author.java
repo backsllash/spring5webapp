@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Set;
 
 @javax.persistence.Entity
-public class Author extends Entity {
+public class Author {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;

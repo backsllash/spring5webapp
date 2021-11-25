@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 @javax.persistence.Entity
-public class Publisher extends Entity {
+public class Publisher {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
